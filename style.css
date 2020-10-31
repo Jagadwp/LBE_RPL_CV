@@ -1,0 +1,76 @@
+* {
+    font-family: 'Montserrat', 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    padding: 5vw 10vw;
+}
+header {
+    display: flex; 
+    flex-direction: row;
+    /* flex-wrap: wrap;   */
+    align-items: flex-start; 
+}
+
+.profile-image {
+    padding: 2vw;
+    border-radius: 50%;
+}
+.person-name {
+    padding: 5vw;
+    letter-spacing: 3px;
+    line-height: 1.25em;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vw;
+    margin-top: 5vh;
+}
+
+#side-line {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+
+.verical-line {
+    background-color: rgb(70, 70, 70);
+    width: 15px;
+}
+
+#cv-data-container {
+    display: flex;
+    flex-direction: row;
+    color: #101010;
+    margin-left: 4vw;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 5px 15px;
+}
+
+.contact-container p {
+    margin: 5px 0 0 1vw;
+}
+
+.column-1, .column-2 {
+    width: 35%;
+}
+
+.column-2 {
+    margin-left: 15vw;
+}
