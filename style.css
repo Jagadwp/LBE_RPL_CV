@@ -3,9 +3,16 @@
     font-weight: 400;
 }
 
-main {
+.main-container {
     padding: 5vw 10vw;
 }
+
+main {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 header {
     display: flex; 
     flex-direction: row;
@@ -50,6 +57,10 @@ header {
     margin-left: 4vw;
 }
 
+section {
+    margin-bottom: 3vw;
+}
+
 
 .contact {
     display: flex;
@@ -60,11 +71,11 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 0 5px 15px;
+    margin: 0 0 0px 15px;
 }
 
 .contact-container p {
-    margin: 5px 0 0 1vw;
+    margin: 0.75vh 0 0 1vw;
 }
 
 .column-1, .column-2 {
@@ -72,5 +83,5 @@ header {
 }
 
 .column-2 {
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
