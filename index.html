@@ -1,146 +1,149 @@
 <html lang="en">
+  <head>
+    <!-- <meta charset="utf-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My CV</title>
 
-<head>
-  <!-- <meta charset="utf-8"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My CV</title>
+    <!-- css stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
 
-  <!-- css stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- google font -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap"
-    rel="stylesheet">
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/9d5222a814.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <!-- fontawesome -->
-  <script src="https://kit.fontawesome.com/9d5222a814.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-  <div class="main-container">
-    <main id="CV">
-
-      <div class="header row">
-        <div class="profile-image-container col-lg-3 col-md-3">
-          <img class="profile-image" src="./src/Profil-3.jpg" alt="foto">
-        </div>
-
-        <div class="person-name col-lg-9 col-md-9">
-          JAGAD WIJAYA PURNOMO
-        </div>
-      </div>
-
-      <div id="content">
-        <aside id="side-line">
-          <div class="verical-line"></div>
-        </aside>
-
-        <article id="cv-data-container">
-          <div class="row">
-
-            <div class="column-1 col-lg-6 col-md-6">
-              <section class="professional-profile">
-                <h3>Professional Profile</h3>
-                <p style="text-align: justify; width: 90%;">
-                  I am from Surabaya. I have been build my competitive character since childhood, I am known as man who
-                  interested in technology and active in organizations
-                </p>
-              </section>
-
-              <section class="competencies">
-                <h3>Competencies</h3>
-                <ul>
-                  <li>C/C++</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>JavaScript/ES6</li>
-                  <li>Python</li>
-                  <li>NodeJS</li>
-                </ul>
-              </section>
-
-              <section class="training">
-                <h3>Training</h3>
-                <ul>
-                  <li>Dicoding Basic Web Developmnet Class</li>
-                  <li>Dicoding Front-End Fundamental Class</li>
-                  <li>Udemy: The Complete 2020 Web Development Bootcamp</li>
-                </ul>
-              </section>
-
-              <section class="contact">
-                <h3>Contact</h3>
-                <div class="contact-container">
-                  <i class="fas fa-phone-square-alt"></i>
-                  <p>+62822-4434-8957</p>
-                </div>
-                <div class="contact-container">
-                  <i class="fab fa-instagram-square"></i>
-                  <p style="margin-left: 1.2vw;">Jagad_wp</p>
-                </div>
-                <div class="contact-container">
-                  <i class="fab fa-line"></i>
-                  <p style="margin-left: 1.2vw;">Jagad26</p>
-                </div>
-                <div class="contact-container">
-                  <i class="fas fa-envelope"></i>
-                  <p>Jagadpurnomo26@gmail.com</p>
-                </div>
-                <div class="contact-container">
-                  <i class="fab fa-github"></i>
-                  <p>Jagadwp</p>
-                </div>
-              </section>
-            </div>
-            <!-- end column-1 -->
-            <!-- start column-2 -->
-            <div class="column-2 col-lg-6 col-md-6">
-              <section class="academic-background">
-                <h3>Academic</h3>
-                <p>- SMAN 5 Surabaya</p>
-                <ul>
-                  <li>2016-2019</li>
-                </ul>
-                <p>- ITS (Informatics Departement)</p>
-                <ul>
-                  <li>2019-Now</li>
-                </ul>
-              </section>
-
-              <section class="experience">
-                <h3>Experience</h3>
-                <ul>
-                  <li>CovidMinidata API Project</li>
-                  <li>Club FInder Project</li>
-                  <li>Simple Calculator Project</li>
-                  <li>Computer Service Web project</li>
-                </ul>
-              </section>
-
-              <section class="award">
-                <h3>Award</h3>
-                <ul>
-                  <li>Sampoerna Academic Scholarship (2017)</li>
-                  <li>1st Winner of Energy Saving Hero Team of the Ministry of Energy and Mineral Resources (2017)
-                  </li>
-                  <li>Sampoerna Academic Scholarship (2019)</li>
-                </ul>
-              </section>
-            </div>
-            <!-- column-2 end -->
+  <body>
+    <div class="main-container">
+      <main id="CV">
+        <div class="header row">
+          <div class="profile-image-container col-lg-3 col-md-3">
+            <img id="profile-image" src="./src/Profil-3.jpg" alt="foto" />
           </div>
-          <!-- row-div end-->
-        </article>
 
-      </div>
-    </main>
-  </div>
+          <div class="person-name col-lg-9 col-md-9">JAGAD WIJAYA PURNOMO</div>
+        </div>
 
-  <script src="index.js"></script>
-</body>
+        <div id="content">
+          <aside id="side-line">
+            <div class="verical-line"></div>
+          </aside>
 
+          <article id="cv-data-container">
+            <div class="row">
+              <div class="column-1 col-lg-6 col-md-6">
+                <section class="professional-profile">
+                  <h3>Professional Profile</h3>
+                  <p style="text-align: justify; width: 90%">
+                    I am from Surabaya. I have been build my competitive
+                    character since childhood, I am known as man who interested
+                    in technology and active in organizations
+                  </p>
+                </section>
+
+                <section class="competencies">
+                  <h3>Competencies</h3>
+                  <ul>
+                    <li>C/C++</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript/ES6</li>
+                    <li>Python</li>
+                    <li>NodeJS</li>
+                  </ul>
+                </section>
+
+                <section class="training">
+                  <h3>Training</h3>
+                  <ul>
+                    <li>Dicoding Basic Web Developmnet Class</li>
+                    <li>Dicoding Front-End Fundamental Class</li>
+                    <li>Udemy: The Complete 2020 Web Development Bootcamp</li>
+                  </ul>
+                </section>
+
+                <section class="contact">
+                  <h3>Contact</h3>
+                  <div class="contact-container">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <p>+62822-4434-8957</p>
+                  </div>
+                  <div class="contact-container">
+                    <i class="fab fa-instagram-square"></i>
+                    <p style="margin-left: 1.2vw">Jagad_wp</p>
+                  </div>
+                  <div class="contact-container">
+                    <i class="fab fa-line"></i>
+                    <p style="margin-left: 1.2vw">Jagad26</p>
+                  </div>
+                  <div class="contact-container">
+                    <i class="fas fa-envelope"></i>
+                    <p>Jagadpurnomo26@gmail.com</p>
+                  </div>
+                  <div class="contact-container">
+                    <i class="fab fa-github"></i>
+                    <p>Jagadwp</p>
+                  </div>
+                </section>
+              </div>
+              <!-- end column-1 -->
+              <!-- start column-2 -->
+              <div class="column-2 col-lg-6 col-md-6">
+                <section class="academic-background">
+                  <h3>Academic</h3>
+                  <p>- SMAN 5 Surabaya</p>
+                  <ul>
+                    <li>2016-2019</li>
+                  </ul>
+                  <p>- ITS (Informatics Departement)</p>
+                  <ul>
+                    <li>2019-Now</li>
+                  </ul>
+                </section>
+
+                <section class="experience">
+                  <h3>Experience</h3>
+                  <ul>
+                    <li>CovidMinidata API Project</li>
+                    <li>Club FInder Project</li>
+                    <li>Simple Calculator Project</li>
+                    <li>Computer Service Web project</li>
+                  </ul>
+                </section>
+
+                <section class="award">
+                  <h3>Award</h3>
+                  <ul>
+                    <li>Sampoerna Academic Scholarship (2017)</li>
+                    <li>
+                      1st Winner of Energy Saving Hero Team of the Ministry of
+                      Energy and Mineral Resources (2017)
+                    </li>
+                    <li>Sampoerna Academic Scholarship (2019)</li>
+                  </ul>
+                </section>
+              </div>
+              <!-- column-2 end -->
+            </div>
+            <!-- row-div end-->
+          </article>
+        </div>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>

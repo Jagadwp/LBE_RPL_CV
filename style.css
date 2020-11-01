@@ -1,106 +1,108 @@
 * {
-    font-family: 'Montserrat', 'Ubuntu', sans-serif;
-    font-weight: 400;
-    box-sizing: border-box;
-    color: #2c2828;
+  font-family: "Montserrat", "Ubuntu", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: #2c2828;
 }
 
 .main-container {
-    padding: 5vw 10vw;
+  padding: 5vw 10vw;
 }
 
 main {
-    background-color: rgb(252, 251, 251);
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(252, 251, 251);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.profile-image {
-    padding: 2vw;
-    border-radius: 50%;
-    
+#profile-image {
+  max-width: 270px;
+  object-fit: contain;
+  padding: 2vw;
+  border-radius: 50%;
+  cursor: pointer;
 }
+
 .person-name {
-    padding: 5vw;
-    letter-spacing: 3px;
-    line-height: 1.25em;
-    font-weight: 800;
-    font-size: 3.5rem;
+  padding: 5vw;
+  letter-spacing: 3px;
+  line-height: 1.25em;
+  font-weight: 800;
+  font-size: 3.5rem;
 }
 
-h3:hover, .person-name:hover {
-    color: #3b2c85;
+h3:hover,
+.person-name:hover {
+  color: #3b2c85;
 }
 
 #content {
-    display: flex;
-    flex-direction: row;
-    padding: 2vw 0 2vw 5vw;
+  display: flex;
+  flex-direction: row;
+  padding: 2vw 0 2vw 5vw;
 }
 
 #side-line {
-    display: flex;
-    justify-content: center;
-    width: 15%;
-    padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  padding-bottom: 5vh;
 }
 
 .verical-line {
-    background-color: rgb(70, 70, 70);
-    width: 12px;
+  background-color: rgb(70, 70, 70);
+  width: 12px;
 }
 
 section {
-    margin-bottom: 3vw;
+  margin-bottom: 3vw;
 }
 
-
 .contact {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 0 0px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 0px 15px;
 }
 
 .contact-container p {
-    margin: 0.75vh 0 0 1vw;
+  margin: 0.75vh 0 0 1vw;
 }
 
 #cv-data-container {
-    padding: 1vw 3vw;
+  padding: 1vw 3vw;
 }
 
-.column-1, .column-2 {
-   padding-right: 6vw;
+.column-1,
+.column-2 {
+  padding-right: 6vw;
 }
 
 .academic-background p {
-    margin-bottom: 3px;
+  margin-bottom: 3px;
 }
-
-
 
 @media screen and (max-width: 1024px) {
-    .person-name {
-        font-size: 2.5rem;
-    }
-} 
-
-@media screen and (max-width: 767px) {
-    .person-name {
-        font-size: 1.5rem;
-        padding-left: 8vw;
-    }
-    h3 {
-        font-size: 1.25rem;
-    }
-    p, li {
-        font-size: 0.75rem;
-    }
+  .person-name {
+    font-size: 2.5rem;
+  }
 }
 
+@media screen and (max-width: 767px) {
+  .person-name {
+    font-size: 1.5rem;
+    padding-left: 8vw;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  p,
+  li {
+    font-size: 0.75rem;
+  }
+}
