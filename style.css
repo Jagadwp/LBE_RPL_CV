@@ -1,6 +1,8 @@
 * {
     font-family: 'Montserrat', 'Ubuntu', sans-serif;
     font-weight: 400;
+    box-sizing: border-box;
+    color: #2c2828;
 }
 
 .main-container {
@@ -8,21 +10,15 @@
 }
 
 main {
-    background-color: whitesmoke;
-    border-radius: 10px;
+    background-color: rgb(252, 251, 251);
+    border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-header {
-    display: flex; 
-    flex-direction: row;
-    /* flex-wrap: wrap;   */
-    align-items: flex-start; 
 }
 
 .profile-image {
     padding: 2vw;
     border-radius: 50%;
+    
 }
 .person-name {
     padding: 5vw;
@@ -32,29 +28,26 @@ header {
     font-size: 3.5rem;
 }
 
+h3:hover, .person-name:hover {
+    color: #3b2c85;
+}
+
 #content {
     display: flex;
     flex-direction: row;
-    padding-left: 5vw;
-    margin-top: 5vh;
+    padding: 2vw 0 2vw 5vw;
 }
 
 #side-line {
     display: flex;
     justify-content: center;
     width: 15%;
+    padding-bottom: 5vh;
 }
 
 .verical-line {
     background-color: rgb(70, 70, 70);
-    width: 15px;
-}
-
-#cv-data-container {
-    display: flex;
-    flex-direction: row;
-    color: #101010;
-    margin-left: 4vw;
+    width: 12px;
 }
 
 section {
@@ -78,10 +71,36 @@ section {
     margin: 0.75vh 0 0 1vw;
 }
 
-.column-1, .column-2 {
-    width: 35%;
+#cv-data-container {
+    padding: 1vw 3vw;
 }
 
-.column-2 {
-    margin-left: 10vw;
+.column-1, .column-2 {
+   padding-right: 6vw;
 }
+
+.academic-background p {
+    margin-bottom: 3px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .person-name {
+        font-size: 2.5rem;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .person-name {
+        font-size: 1.5rem;
+        padding-left: 8vw;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    p, li {
+        font-size: 0.75rem;
+    }
+}
+
